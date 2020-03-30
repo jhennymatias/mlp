@@ -1,0 +1,31 @@
+Rede Neural
+
+* O que é?
+- Algoritmo que busca se aproximar a forma como o cerebro se aprende
+- Util para decisões e padrões
+- Funcão universal de aproximação
+
+* Como funciona?
+- 100% conectada
+- Feedforward: entrada -> oculta -> saida
+- Backpropagation: entrada <- oculta <- saida
+	- processo de aprendizado
+- Entrada: 	recebe informação
+- Oculta:	processa a informação
+- Saida:	resultado
+
+- as conexões são os pesos, assim calculando os pesos em busca da resposta mais correta
+
+
+matriz_dos_pesos * vetor_das_Entrada = oculta 
+
+oculta + bias(um numero) = oculta
+- acelera o processo de aprendizado
+- bias: tendencia
+- Função de ativação(valor encontrado) --> sigmoid
+	- ativa o neuronio 
+
+camada_oculta * pesos_saida = saida
+
+
+
